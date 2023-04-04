@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
 import Navigation from './components/Navigation/Navigation';
 import AppName from './components/AppName/AppName';
-import InfoCard from './components/InfoCard/InfoCard';
 import Prompt from './components/Prompt/Prompt';
+import ImageCard from './components/ImageCard/ImageCard';
+import InfoCard from './components/InfoCard/InfoCard';
+
 
 import './App.css';
 
@@ -13,8 +15,9 @@ class App extends Component {
         <Navigation />
         <AppName />
         <Prompt />
-        <InfoCard />
-        {/*<ImageLinkForm />
+        <ImageCard />
+        {/*<InfoCard />
+           <ImageLinkForm />
            <FaceRecognition />*/}
       </div>
     );
