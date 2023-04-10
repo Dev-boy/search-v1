@@ -1,7 +1,14 @@
 import React from 'react';
+import './AppName.css';
 
 const AppName = () => {
-	return <h1 className='f1' >Visual Search</h1>
+	return (
+		<div>
+			<p className='f1 center'>Visual Search</p>
+			{/*<img src="" alt="oops" />*/}
+		</div>
+
+	)
 }
 
 export default AppName;

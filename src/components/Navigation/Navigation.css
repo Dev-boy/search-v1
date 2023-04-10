@@ -1,0 +1,8 @@
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 6px;
+
+	height: 60px;
+}
